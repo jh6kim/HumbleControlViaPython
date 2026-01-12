@@ -1,0 +1,1 @@
+/home/jhkim/ros2_ws/build/ur_dashboard_msgs/rosidl_generator_c/ur_dashboard_msgs/msg/detail/safety_mode__struct.h

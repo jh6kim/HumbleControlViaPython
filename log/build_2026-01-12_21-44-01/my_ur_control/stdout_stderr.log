@@ -1,0 +1,27 @@
+running develop
+Removing /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my-ur-control.egg-link (link to .)
+running egg_info
+writing ../../build/my_ur_control/my_ur_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_ur_control/my_ur_control.egg-info/dependency_links.txt
+writing entry points to ../../build/my_ur_control/my_ur_control.egg-info/entry_points.txt
+writing requirements to ../../build/my_ur_control/my_ur_control.egg-info/requires.txt
+writing top-level names to ../../build/my_ur_control/my_ur_control.egg-info/top_level.txt
+reading manifest file '../../build/my_ur_control/my_ur_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_ur_control/my_ur_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control
+copying /home/jhkim/ros2_ws/build/my_ur_control/build/lib/my_ur_control/ur5_test.py -> /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control
+copying /home/jhkim/ros2_ws/build/my_ur_control/build/lib/my_ur_control/__init__.py -> /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control
+byte-compiling /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control/ur5_test.py to ur5_test.cpython-310.pyc
+byte-compiling /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/my_ur_control -> /home/jhkim/ros2_ws/install/my_ur_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/jhkim/ros2_ws/install/my_ur_control/share/my_ur_control
+running install_egg_info
+Copying ../../build/my_ur_control/my_ur_control.egg-info to /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ur5_test script to /home/jhkim/ros2_ws/install/my_ur_control/lib/my_ur_control
+writing list of installed files to '/home/jhkim/ros2_ws/build/my_ur_control/install.log'

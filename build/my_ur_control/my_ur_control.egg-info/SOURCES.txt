@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_ur_control/my_ur_control.egg-info/PKG-INFO
+../../build/my_ur_control/my_ur_control.egg-info/SOURCES.txt
+../../build/my_ur_control/my_ur_control.egg-info/dependency_links.txt
+../../build/my_ur_control/my_ur_control.egg-info/entry_points.txt
+../../build/my_ur_control/my_ur_control.egg-info/requires.txt
+../../build/my_ur_control/my_ur_control.egg-info/top_level.txt
+../../build/my_ur_control/my_ur_control.egg-info/zip-safe
+my_ur_control/__init__.py
+my_ur_control/ur5_test.py
+resource/my_ur_control
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

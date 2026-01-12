@@ -1,0 +1,24 @@
+[0.352s] Invoking command in '/home/jhkim/ros2_ws/src/my_ur_control': PYTHONPATH=/home/jhkim/ros2_ws/build/my_ur_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ur_control build --build-base /home/jhkim/ros2_ws/build/my_ur_control/build install --record /home/jhkim/ros2_ws/build/my_ur_control/install.log --single-version-externally-managed install_data
+[0.463s] running egg_info
+[0.463s] writing ../../build/my_ur_control/my_ur_control.egg-info/PKG-INFO
+[0.463s] writing dependency_links to ../../build/my_ur_control/my_ur_control.egg-info/dependency_links.txt
+[0.463s] writing entry points to ../../build/my_ur_control/my_ur_control.egg-info/entry_points.txt
+[0.464s] writing requirements to ../../build/my_ur_control/my_ur_control.egg-info/requires.txt
+[0.464s] writing top-level names to ../../build/my_ur_control/my_ur_control.egg-info/top_level.txt
+[0.464s] reading manifest file '../../build/my_ur_control/my_ur_control.egg-info/SOURCES.txt'
+[0.465s] writing manifest file '../../build/my_ur_control/my_ur_control.egg-info/SOURCES.txt'
+[0.465s] running build
+[0.465s] running build_py
+[0.465s] copying my_ur_control/ur5_test.py -> /home/jhkim/ros2_ws/build/my_ur_control/build/lib/my_ur_control
+[0.465s] running install
+[0.465s] running install_lib
+[0.465s] copying /home/jhkim/ros2_ws/build/my_ur_control/build/lib/my_ur_control/ur5_test.py -> /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control
+[0.466s] byte-compiling /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control/ur5_test.py to ur5_test.cpython-310.pyc
+[0.466s] running install_data
+[0.466s] running install_egg_info
+[0.467s] removing '/home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.467s] Copying ../../build/my_ur_control/my_ur_control.egg-info to /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my_ur_control-0.0.0-py3.10.egg-info
+[0.468s] running install_scripts
+[0.478s] Installing ur5_test script to /home/jhkim/ros2_ws/install/my_ur_control/lib/my_ur_control
+[0.478s] writing list of installed files to '/home/jhkim/ros2_ws/build/my_ur_control/install.log'
+[0.490s] Invoked command in '/home/jhkim/ros2_ws/src/my_ur_control' returned '0': PYTHONPATH=/home/jhkim/ros2_ws/build/my_ur_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_ur_control build --build-base /home/jhkim/ros2_ws/build/my_ur_control/build install --record /home/jhkim/ros2_ws/build/my_ur_control/install.log --single-version-externally-managed install_data

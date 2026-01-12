@@ -1,0 +1,3 @@
+[console_scripts]
+ur5_test = my_ur_control.ur5_test:main
+

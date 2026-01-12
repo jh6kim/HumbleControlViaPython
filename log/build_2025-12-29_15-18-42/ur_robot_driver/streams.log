@@ -1,0 +1,204 @@
+[0.007s] Invoking command in '/home/jhkim/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_robot_driver
+[0.040s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.076s] -- Detecting C compiler ABI info
+[0.117s] -- Detecting C compiler ABI info - done
+[0.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.121s] -- Detecting C compile features
+[0.121s] -- Detecting C compile features - done
+[0.123s] -- Detecting CXX compiler ABI info
+[0.169s] -- Detecting CXX compiler ABI info - done
+[0.173s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.173s] -- Detecting CXX compile features
+[0.173s] -- Detecting CXX compile features - done
+[0.173s] [0mur_robot_driver: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.175s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.260s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.291s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.321s] -- Found controller_manager: 2.52.2 (/opt/ros/humble/share/controller_manager/cmake)
+[0.352s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.355s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.360s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.487s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.489s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.503s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.544s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.546s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.556s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.557s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.563s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.569s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.574s] -- Looking for pthread.h
+[0.632s] -- Looking for pthread.h - found
+[0.632s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.690s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.691s] -- Found Threads: TRUE  
+[0.736s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[0.737s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.742s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.752s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.753s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.753s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.784s] -- Found ur_dashboard_msgs: 2.11.0 (/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.793s] -- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[0.898s] -- Found ur_controllers: 2.11.0 (/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/cmake)
+[0.950s] -- Found ur_description: 2.8.0 (/opt/ros/humble/share/ur_description/cmake)
+[0.951s] -- Found launch_testing_ament_cmake: 1.0.13 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.952s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.964s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.968s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.968s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.968s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.979s] -- Found PythonExtra: .so  
+[0.980s] -- Configuring done
+[1.007s] -- Generating done
+[1.017s] -- Build files have been written to: /home/jhkim/ros2_ws/build/ur_robot_driver
+[1.025s] Invoked command in '/home/jhkim/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_robot_driver
+[1.026s] Invoking command in '/home/jhkim/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_robot_driver -- -j32 -l32
+[1.061s] [  9%] [32mBuilding CXX object CMakeFiles/ur_ros2_control_node.dir/src/ur_ros2_control_node.cpp.o[0m
+[1.061s] [  9%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_ros.cpp.o[0m
+[1.061s] [ 13%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper.cpp.o[0m
+[1.061s] [ 18%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper.cpp.o[0m
+[1.061s] [ 22%] [32mBuilding CXX object CMakeFiles/urscript_interface.dir/src/urscript_interface.cpp.o[0m
+[1.062s] [ 45%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/dashboard_client_node.cpp.o[0m
+[1.062s] [ 45%] [32mBuilding CXX object CMakeFiles/trajectory_until_node.dir/src/trajectory_until_node.cpp.o[0m
+[1.062s] [ 45%] [32mBuilding CXX object CMakeFiles/controller_stopper_node.dir/src/controller_stopper_node.cpp.o[0m
+[1.062s] [ 45%] [32mBuilding CXX object CMakeFiles/dashboard_client.dir/src/urcl_log_handler.cpp.o[0m
+[1.062s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/urcl_log_handler.cpp.o[0m
+[1.062s] [ 59%] [32mBuilding CXX object CMakeFiles/robot_state_helper.dir/src/robot_state_helper_node.cpp.o[0m
+[1.062s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/dashboard_client_ros.cpp.o[0m
+[1.062s] [ 59%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/hardware_interface.cpp.o[0m
+[1.062s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/urcl_log_handler.cpp.o[0m
+[1.062s] [ 68%] [32mBuilding CXX object CMakeFiles/ur_robot_driver_plugin.dir/src/robot_state_helper.cpp.o[0m
+[1.068s] [ 68%] Built target ament_cmake_python_symlink_ur_robot_driver
+[1.206s] running egg_info
+[1.206s] creating ur_robot_driver.egg-info
+[1.206s] writing ur_robot_driver.egg-info/PKG-INFO
+[1.206s] writing dependency_links to ur_robot_driver.egg-info/dependency_links.txt
+[1.206s] writing top-level names to ur_robot_driver.egg-info/top_level.txt
+[1.206s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.208s] reading manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.208s] writing manifest file 'ur_robot_driver.egg-info/SOURCES.txt'
+[1.228s] [ 68%] Built target ament_cmake_python_build_ur_robot_driver_egg
+[4.637s] [ 72%] [32m[1mLinking CXX executable ur_ros2_control_node[0m
+[4.720s] [ 72%] Built target ur_ros2_control_node
+[8.564s] [ 77%] [32m[1mLinking CXX executable trajectory_until_node[0m
+[8.697s] [ 77%] Built target trajectory_until_node
+[10.140s] [ 81%] [32m[1mLinking CXX executable urscript_interface[0m
+[10.317s] [ 81%] Built target urscript_interface
+[11.873s] [ 86%] [32m[1mLinking CXX executable controller_stopper_node[0m
+[12.062s] [ 86%] Built target controller_stopper_node
+[13.707s] [ 90%] [32m[1mLinking CXX executable dashboard_client[0m
+[13.901s] [ 90%] Built target dashboard_client
+[17.742s] [ 95%] [32m[1mLinking CXX executable robot_state_helper[0m
+[17.797s] [100%] [32m[1mLinking CXX shared library libur_robot_driver_plugin.so[0m
+[18.013s] [100%] Built target robot_state_helper
+[18.203s] [100%] Built target ur_robot_driver_plugin
+[18.215s] Invoked command in '/home/jhkim/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_robot_driver -- -j32 -l32
+[18.215s] Invoking command in '/home/jhkim/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_robot_driver
+[18.219s] -- Install configuration: "RelWithDebInfo"
+[18.220s] -- Execute custom install script
+[18.220s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver//hardware_interface_plugin.xml
+[18.226s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/controller_stopper_node
+[18.231s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/dashboard_client
+[18.237s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/robot_state_helper
+[18.242s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/trajectory_until_node
+[18.246s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/ur_ros2_control_node
+[18.251s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/urscript_interface
+[18.256s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/libur_robot_driver_plugin.so
+[18.261s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[18.266s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[18.271s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[18.276s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[18.282s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/trajectory_until_node.hpp
+[18.287s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[18.292s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.sh
+[18.298s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/library_path.dsv
+[18.303s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/controller_stopper.hpp
+[18.303s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/dashboard_client_ros.hpp
+[18.303s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/hardware_interface.hpp
+[18.303s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/robot_state_helper.hpp
+[18.303s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/trajectory_until_node.hpp
+[18.303s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_robot_driver/include/ur_robot_driver/urcl_log_handler.hpp
+[18.304s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.sh
+[18.308s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/pythonpath.dsv
+[18.314s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.11.0-py3.10.egg-info/PKG-INFO
+[18.319s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.11.0-py3.10.egg-info/SOURCES.txt
+[18.324s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.11.0-py3.10.egg-info/dependency_links.txt
+[18.329s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver-2.11.0-py3.10.egg-info/top_level.txt
+[18.334s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py
+[18.339s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/tool_communication.py
+[18.344s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/example_move.py
+[18.349s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[18.354s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/examples.py
+[18.360s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/force_mode.py
+[18.365s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/move_until_example.py
+[18.370s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/bin/wait_dashboard_server.sh
+[18.374s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_robot_driver/lib/ur_robot_driver/start_ursim.sh
+[18.375s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_goal_publishers_config.yaml
+[18.380s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/test_velocity_goal_publishers_config.yaml
+[18.385s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10_update_rate.yaml
+[18.389s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur10e_update_rate.yaml
+[18.394s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur12e_update_rate.yaml
+[18.399s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur15_update_rate.yaml
+[18.404s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur16e_update_rate.yaml
+[18.409s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur18_update_rate.yaml
+[18.414s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur20_update_rate.yaml
+[18.419s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur30_update_rate.yaml
+[18.424s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3_update_rate.yaml
+[18.430s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur3e_update_rate.yaml
+[18.434s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5_update_rate.yaml
+[18.439s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur5e_update_rate.yaml
+[18.444s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur7e_update_rate.yaml
+[18.449s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur8long_update_rate.yaml
+[18.455s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/config/ur_controllers.yaml
+[18.460s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_forward_velocity_controller.launch.py
+[18.465s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_joint_trajectory_controller.launch.py
+[18.471s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/test_scaled_joint_trajectory_controller.launch.py
+[18.476s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10.launch.py
+[18.482s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur10e.launch.py
+[18.487s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur12e.launch.py
+[18.493s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur15.launch.py
+[18.497s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur16e.launch.py
+[18.503s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur18.launch.py
+[18.507s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur20.launch.py
+[18.512s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3.launch.py
+[18.518s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur30.launch.py
+[18.523s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur3e.launch.py
+[18.528s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5.launch.py
+[18.533s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur5e.launch.py
+[18.538s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur7e.launch.py
+[18.543s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur8long.launch.py
+[18.548s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_control.launch.py
+[18.553s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/launch/ur_dashboard_client.launch.py
+[18.559s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/package_run_dependencies/ur_robot_driver
+[18.564s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/parent_prefix_path/ur_robot_driver
+[18.569s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.sh
+[18.574s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/ament_prefix_path.dsv
+[18.580s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.sh
+[18.585s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/environment/path.dsv
+[18.590s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.bash
+[18.595s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.sh
+[18.600s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.zsh
+[18.605s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/local_setup.dsv
+[18.610s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv
+[18.615s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/packages/ur_robot_driver
+[18.621s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ur_robot_driver
+[18.626s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.631s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[18.637s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.642s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig.cmake
+[18.647s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake/ur_robot_driverConfig-version.cmake
+[18.653s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.xml
+[18.658s] -- Installing: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources
+[18.658s] -- Installing: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rs485-1.0.urcap
+[18.658s] -- Installing: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_output_recipe.txt
+[18.658s] -- Installing: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/rtde_input_recipe.txt
+[18.658s] -- Installing: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/externalcontrol-1.0.5.urcap
+[18.658s] -- Installing: /home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/resources/ros_control.urscript
+[18.674s] Listing '/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver'...
+[18.674s] Compiling '/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages/ur_robot_driver/__init__.py'...
+[18.678s] Invoked command in '/home/jhkim/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_robot_driver

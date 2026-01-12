@@ -1,0 +1,666 @@
+[0.068s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.068s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b9d975ca110>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b9d975c9a50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b9d975c9a50>>, mixin_verb=('build',))
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.172s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jhkim/ros2_ws'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 427 installed packages in /opt/ros/humble
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'ur_dashboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'ur_dashboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhkim/ros2_ws/build/ur_dashboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhkim/ros2_ws/install/ur_dashboard_msgs', 'merge_install': False, 'path': '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'ur_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhkim/ros2_ws/build/ur_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhkim/ros2_ws/install/ur_moveit_config', 'merge_install': False, 'path': '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'ur_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhkim/ros2_ws/build/ur_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhkim/ros2_ws/install/ur_controllers', 'merge_install': False, 'path': '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'ur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhkim/ros2_ws/build/ur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhkim/ros2_ws/install/ur_bringup', 'merge_install': False, 'path': '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_robot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'ur_robot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhkim/ros2_ws/build/ur_robot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhkim/ros2_ws/install/ur_robot_driver', 'merge_install': False, 'path': '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver', 'symlink_install': True, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_simulation_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'ur_simulation_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhkim/ros2_ws/build/ur_simulation_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhkim/ros2_ws/install/ur_simulation_gazebo', 'merge_install': False, 'path': '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'ur_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhkim/ros2_ws/build/ur_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhkim/ros2_ws/install/ur_calibration', 'merge_install': False, 'path': '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_calibration', 'symlink_install': True, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'ur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jhkim/ros2_ws/build/ur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jhkim/ros2_ws/install/ur', 'merge_install': False, 'path': '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur', 'symlink_install': True, 'test_result_base': None}
+[0.248s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.248s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.249s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with build type 'ament_cmake'
+[0.249s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[0.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config' with build type 'ament_cmake'
+[0.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_dashboard_msgs
+[0.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_moveit_config
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_moveit_config
+[0.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_moveit_config -- -j32 -l32
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_moveit_config -- -j32 -l32
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_moveit_config
+[1.232s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_moveit_config
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config' for CMake module files
+[1.233s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config' for CMake config files
+[1.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config/bin'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config/lib/python3.10/site-packages'
+[1.235s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config/bin'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[1.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[1.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[1.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_moveit_config)
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config' for CMake module files
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config' for CMake config files
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_moveit_config', 'cmake_prefix_path')
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.ps1'
+[1.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.dsv'
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/hook/cmake_prefix_path.sh'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config/bin'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config/lib/pkgconfig/ur_moveit_config.pc'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config/lib/python3.10/site-packages'
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_moveit_config/bin'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.ps1'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.sh'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.bash'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_moveit_config/share/ur_moveit_config/package.zsh'
+[1.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_moveit_config/share/colcon-core/packages/ur_moveit_config)
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_dashboard_msgs
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_dashboard_msgs -- -j32 -l32
+[5.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_dashboard_msgs -- -j32 -l32
+[5.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_dashboard_msgs
+[6.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[6.888s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs' for CMake module files
+[6.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_dashboard_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_dashboard_msgs
+[6.888s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs' for CMake config files
+[6.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[6.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[6.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[6.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[6.890s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib'
+[6.890s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[6.890s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/bin'
+[6.890s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[6.890s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[6.891s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/bin'
+[6.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[6.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[6.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[6.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[6.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[6.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[6.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_dashboard_msgs)
+[6.892s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs' for CMake module files
+[6.892s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs' for CMake config files
+[6.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'cmake_prefix_path')
+[6.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.ps1'
+[6.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.dsv'
+[6.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/cmake_prefix_path.sh'
+[6.893s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib'
+[6.893s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_dashboard_msgs', 'ld_library_path_lib')
+[6.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.ps1'
+[6.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.dsv'
+[6.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/hook/ld_library_path_lib.sh'
+[6.894s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/bin'
+[6.894s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib/pkgconfig/ur_dashboard_msgs.pc'
+[6.894s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib/python3.10/site-packages'
+[6.894s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/bin'
+[6.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.ps1'
+[6.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.dsv'
+[6.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.sh'
+[6.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.bash'
+[6.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/package.zsh'
+[6.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/colcon-core/packages/ur_dashboard_msgs)
+[6.895s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers' with build type 'ament_cmake'
+[6.895s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers'
+[6.895s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.895s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_controllers
+[7.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_controllers
+[7.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_controllers -- -j32 -l32
+[16.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_controllers -- -j32 -l32
+[16.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_controllers
+[17.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[17.160s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers' for CMake module files
+[17.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_controllers
+[17.161s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers' for CMake config files
+[17.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[17.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[17.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[17.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[17.161s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/lib'
+[17.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[17.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[17.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[17.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[17.162s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/bin'
+[17.162s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[17.162s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/lib/python3.10/site-packages'
+[17.162s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/bin'
+[17.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.ps1'
+[17.163s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.dsv'
+[17.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.sh'
+[17.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.bash'
+[17.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.zsh'
+[17.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[17.164s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_controllers)
+[17.164s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers' for CMake module files
+[17.164s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers' for CMake config files
+[17.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'cmake_prefix_path')
+[17.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.ps1'
+[17.164s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.dsv'
+[17.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/cmake_prefix_path.sh'
+[17.165s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/lib'
+[17.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_controllers', 'ld_library_path_lib')
+[17.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.ps1'
+[17.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.dsv'
+[17.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/hook/ld_library_path_lib.sh'
+[17.165s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/bin'
+[17.165s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/lib/pkgconfig/ur_controllers.pc'
+[17.165s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/lib/python3.10/site-packages'
+[17.165s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_controllers/bin'
+[17.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.ps1'
+[17.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.dsv'
+[17.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.sh'
+[17.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.bash'
+[17.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.zsh'
+[17.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_controllers/share/colcon-core/packages/ur_controllers)
+[17.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver' with build type 'ament_cmake'
+[17.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[17.167s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.167s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.169s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_bringup' with build type 'ament_cmake'
+[17.169s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_bringup'
+[17.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with build type 'ament_cmake'
+[17.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo'
+[17.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_robot_driver
+[17.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_bringup
+[17.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_simulation_gazebo': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_simulation_gazebo
+[17.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_bringup
+[17.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_bringup -- -j32 -l32
+[17.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_bringup -- -j32 -l32
+[17.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_bringup': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_bringup
+[17.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_simulation_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_simulation_gazebo
+[17.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_simulation_gazebo': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_simulation_gazebo -- -j32 -l32
+[17.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_simulation_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_simulation_gazebo -- -j32 -l32
+[17.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_simulation_gazebo': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_simulation_gazebo
+[17.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gazebo)
+[17.690s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo' for CMake module files
+[17.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_simulation_gazebo' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_simulation_gazebo
+[17.690s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo' for CMake config files
+[17.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gazebo', 'cmake_prefix_path')
+[17.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.ps1'
+[17.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.dsv'
+[17.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.sh'
+[17.691s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/bin'
+[17.691s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/lib/pkgconfig/ur_simulation_gazebo.pc'
+[17.691s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/lib/python3.10/site-packages'
+[17.691s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/bin'
+[17.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.ps1'
+[17.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv'
+[17.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.sh'
+[17.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.bash'
+[17.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.zsh'
+[17.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/colcon-core/packages/ur_simulation_gazebo)
+[17.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_simulation_gazebo)
+[17.693s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo' for CMake module files
+[17.693s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo' for CMake config files
+[17.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_simulation_gazebo', 'cmake_prefix_path')
+[17.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.ps1'
+[17.693s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.dsv'
+[17.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/hook/cmake_prefix_path.sh'
+[17.694s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/bin'
+[17.694s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/lib/pkgconfig/ur_simulation_gazebo.pc'
+[17.694s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/lib/python3.10/site-packages'
+[17.694s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/bin'
+[17.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.ps1'
+[17.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.dsv'
+[17.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.sh'
+[17.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.bash'
+[17.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/ur_simulation_gazebo/package.zsh'
+[17.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_simulation_gazebo/share/colcon-core/packages/ur_simulation_gazebo)
+[17.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[17.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_bringup' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_bringup
+[17.803s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup' for CMake module files
+[17.803s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup' for CMake config files
+[17.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[17.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[17.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[17.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[17.804s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/lib'
+[17.804s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/bin'
+[17.804s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[17.804s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/lib/python3.10/site-packages'
+[17.804s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/bin'
+[17.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.ps1'
+[17.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.dsv'
+[17.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.sh'
+[17.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.bash'
+[17.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.zsh'
+[17.805s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[17.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_bringup)
+[17.806s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup' for CMake module files
+[17.806s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup' for CMake config files
+[17.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_bringup', 'cmake_prefix_path')
+[17.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.ps1'
+[17.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.dsv'
+[17.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/hook/cmake_prefix_path.sh'
+[17.807s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/lib'
+[17.807s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/bin'
+[17.807s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/lib/pkgconfig/ur_bringup.pc'
+[17.807s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/lib/python3.10/site-packages'
+[17.807s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_bringup/bin'
+[17.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.ps1'
+[17.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.dsv'
+[17.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.sh'
+[17.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.bash'
+[17.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_bringup/share/ur_bringup/package.zsh'
+[17.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_bringup/share/colcon-core/packages/ur_bringup)
+[18.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_robot_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_robot_driver
+[18.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_robot_driver -- -j32 -l32
+[35.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_robot_driver -- -j32 -l32
+[35.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_robot_driver': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_robot_driver
+[35.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[35.845s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver' for CMake module files
+[35.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_robot_driver' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_robot_driver
+[35.846s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver' for CMake config files
+[35.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[35.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[35.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[35.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[35.847s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/lib'
+[35.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[35.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[35.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[35.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[35.847s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/bin'
+[35.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[35.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[35.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[35.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[35.848s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[35.848s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/lib/python3.10/site-packages'
+[35.848s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/bin'
+[35.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[35.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[35.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[35.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[35.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[35.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[35.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[35.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[35.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[35.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[35.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_robot_driver)
+[35.850s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver' for CMake module files
+[35.851s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver' for CMake config files
+[35.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'cmake_prefix_path')
+[35.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.ps1'
+[35.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.dsv'
+[35.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/cmake_prefix_path.sh'
+[35.851s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/lib'
+[35.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'ld_library_path_lib')
+[35.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.ps1'
+[35.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.dsv'
+[35.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/ld_library_path_lib.sh'
+[35.852s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/bin'
+[35.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'path')
+[35.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.ps1'
+[35.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.dsv'
+[35.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/path.sh'
+[35.852s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/lib/pkgconfig/ur_robot_driver.pc'
+[35.853s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/lib/python3.10/site-packages'
+[35.853s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_robot_driver/bin'
+[35.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_robot_driver', 'pythonscriptspath')
+[35.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.ps1'
+[35.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.dsv'
+[35.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/hook/pythonscriptspath.sh'
+[35.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.ps1'
+[35.854s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.dsv'
+[35.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.sh'
+[35.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.bash'
+[35.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/package.zsh'
+[35.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_robot_driver/share/colcon-core/packages/ur_robot_driver)
+[35.855s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_calibration' with build type 'ament_cmake'
+[35.855s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_calibration'
+[35.855s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.855s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_calibration
+[36.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_calibration
+[36.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_calibration -- -j32 -l32
+[45.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_calibration -- -j32 -l32
+[45.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_calibration
+[46.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[46.118s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration' for CMake module files
+[46.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_calibration
+[46.118s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration' for CMake config files
+[46.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[46.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[46.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[46.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[46.119s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/lib'
+[46.119s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/bin'
+[46.119s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[46.120s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/lib/python3.10/site-packages'
+[46.120s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/bin'
+[46.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.ps1'
+[46.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.dsv'
+[46.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.sh'
+[46.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.bash'
+[46.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.zsh'
+[46.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[46.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur_calibration)
+[46.121s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration' for CMake module files
+[46.121s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration' for CMake config files
+[46.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur_calibration', 'cmake_prefix_path')
+[46.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.ps1'
+[46.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.dsv'
+[46.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/hook/cmake_prefix_path.sh'
+[46.122s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/lib'
+[46.122s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/bin'
+[46.122s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/lib/pkgconfig/ur_calibration.pc'
+[46.122s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/lib/python3.10/site-packages'
+[46.122s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur_calibration/bin'
+[46.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.ps1'
+[46.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.dsv'
+[46.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.sh'
+[46.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.bash'
+[46.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.zsh'
+[46.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur_calibration/share/colcon-core/packages/ur_calibration)
+[46.123s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur' with build type 'ament_cmake'
+[46.123s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur'
+[46.124s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur
+[46.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur
+[46.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur -- -j32 -l32
+[46.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur -- -j32 -l32
+[46.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jhkim/ros2_ws/build/ur': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur
+[46.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[46.612s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur' for CMake module files
+[46.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jhkim/ros2_ws/build/ur' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_calibration:/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_moveit_config:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur
+[46.612s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur' for CMake config files
+[46.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[46.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[46.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[46.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[46.613s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur/bin'
+[46.613s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur/lib/pkgconfig/ur.pc'
+[46.613s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur/lib/python3.10/site-packages'
+[46.613s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur/bin'
+[46.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur/share/ur/package.ps1'
+[46.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur/share/ur/package.dsv'
+[46.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur/share/ur/package.sh'
+[46.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur/share/ur/package.bash'
+[46.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur/share/ur/package.zsh'
+[46.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur/share/colcon-core/packages/ur)
+[46.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ur)
+[46.615s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur' for CMake module files
+[46.615s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur' for CMake config files
+[46.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('ur', 'cmake_prefix_path')
+[46.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur/share/ur/hook/cmake_prefix_path.ps1'
+[46.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jhkim/ros2_ws/install/ur/share/ur/hook/cmake_prefix_path.dsv'
+[46.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jhkim/ros2_ws/install/ur/share/ur/hook/cmake_prefix_path.sh'
+[46.616s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur/bin'
+[46.616s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur/lib/pkgconfig/ur.pc'
+[46.616s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur/lib/python3.10/site-packages'
+[46.616s] Level 1:colcon.colcon_core.environment:checking '/home/jhkim/ros2_ws/install/ur/bin'
+[46.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur/share/ur/package.ps1'
+[46.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jhkim/ros2_ws/install/ur/share/ur/package.dsv'
+[46.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur/share/ur/package.sh'
+[46.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur/share/ur/package.bash'
+[46.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/jhkim/ros2_ws/install/ur/share/ur/package.zsh'
+[46.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jhkim/ros2_ws/install/ur/share/colcon-core/packages/ur)
+[46.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[46.618s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[46.618s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[46.618s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[46.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[46.620s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[46.620s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[46.626s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[46.626s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jhkim/ros2_ws/install/local_setup.ps1'
+[46.626s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jhkim/ros2_ws/install/_local_setup_util_ps1.py'
+[46.627s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jhkim/ros2_ws/install/setup.ps1'
+[46.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jhkim/ros2_ws/install/local_setup.sh'
+[46.628s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jhkim/ros2_ws/install/_local_setup_util_sh.py'
+[46.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jhkim/ros2_ws/install/setup.sh'
+[46.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jhkim/ros2_ws/install/local_setup.bash'
+[46.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jhkim/ros2_ws/install/setup.bash'
+[46.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jhkim/ros2_ws/install/local_setup.zsh'
+[46.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jhkim/ros2_ws/install/setup.zsh'

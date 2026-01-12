@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing my_ur_control.egg-info/PKG-INFO
+writing dependency_links to my_ur_control.egg-info/dependency_links.txt
+writing entry points to my_ur_control.egg-info/entry_points.txt
+writing requirements to my_ur_control.egg-info/requires.txt
+writing top-level names to my_ur_control.egg-info/top_level.txt
+reading manifest file 'my_ur_control.egg-info/SOURCES.txt'
+writing manifest file 'my_ur_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my-ur-control.egg-link (link to .)
+Installing ur5_test script to /home/jhkim/ros2_ws/install/my_ur_control/lib/my_ur_control
+
+Installed /home/jhkim/ros2_ws/build/my_ur_control
+running symlink_data
+symbolically linking /home/jhkim/ros2_ws/build/my_ur_control/resource/my_ur_control -> /home/jhkim/ros2_ws/install/my_ur_control/share/ament_index/resource_index/packages
+symbolically linking /home/jhkim/ros2_ws/build/my_ur_control/package.xml -> /home/jhkim/ros2_ws/install/my_ur_control/share/my_ur_control

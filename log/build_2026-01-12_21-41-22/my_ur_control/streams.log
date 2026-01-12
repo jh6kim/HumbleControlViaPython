@@ -1,0 +1,19 @@
+[0.485s] Invoking command in '/home/jhkim/ros2_ws/build/my_ur_control': PYTHONPATH=/home/jhkim/ros2_ws/build/my_ur_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jhkim/ros2_ws/build/my_ur_control/build --no-deps symlink_data --force
+[0.631s] running develop
+[0.698s] running egg_info
+[0.698s] writing my_ur_control.egg-info/PKG-INFO
+[0.698s] writing dependency_links to my_ur_control.egg-info/dependency_links.txt
+[0.698s] writing entry points to my_ur_control.egg-info/entry_points.txt
+[0.698s] writing requirements to my_ur_control.egg-info/requires.txt
+[0.698s] writing top-level names to my_ur_control.egg-info/top_level.txt
+[0.699s] reading manifest file 'my_ur_control.egg-info/SOURCES.txt'
+[0.699s] writing manifest file 'my_ur_control.egg-info/SOURCES.txt'
+[0.700s] running build_ext
+[0.700s] Creating /home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages/my-ur-control.egg-link (link to .)
+[0.700s] Installing ur5_test script to /home/jhkim/ros2_ws/install/my_ur_control/lib/my_ur_control
+[0.700s] 
+[0.700s] Installed /home/jhkim/ros2_ws/build/my_ur_control
+[0.701s] running symlink_data
+[0.701s] symbolically linking /home/jhkim/ros2_ws/build/my_ur_control/resource/my_ur_control -> /home/jhkim/ros2_ws/install/my_ur_control/share/ament_index/resource_index/packages
+[0.701s] symbolically linking /home/jhkim/ros2_ws/build/my_ur_control/package.xml -> /home/jhkim/ros2_ws/install/my_ur_control/share/my_ur_control
+[0.714s] Invoked command in '/home/jhkim/ros2_ws/build/my_ur_control' returned '0': PYTHONPATH=/home/jhkim/ros2_ws/build/my_ur_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jhkim/ros2_ws/install/my_ur_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jhkim/ros2_ws/build/my_ur_control/build --no-deps symlink_data --force

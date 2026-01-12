@@ -1,0 +1,204 @@
+[0.005s] Invoking command in '/home/jhkim/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_controllers
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.069s] -- The CXX compiler identification is GNU 11.4.0
+[0.073s] -- Detecting C compiler ABI info
+[0.112s] -- Detecting C compiler ABI info - done
+[0.116s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.116s] -- Detecting C compile features
+[0.116s] -- Detecting C compile features - done
+[0.118s] -- Detecting CXX compiler ABI info
+[0.162s] -- Detecting CXX compiler ABI info - done
+[0.166s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.166s] -- Detecting CXX compile features
+[0.166s] -- Detecting CXX compile features - done
+[0.168s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.279s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.307s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.309s] -- Found controller_interface: 2.52.2 (/opt/ros/humble/share/controller_interface/cmake)
+[0.338s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.341s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.503s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.506s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.526s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.569s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.571s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.580s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.582s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.587s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.593s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.602s] -- Looking for pthread.h
+[0.646s] -- Looking for pthread.h - found
+[0.646s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.687s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.688s] -- Found Threads: TRUE  
+[0.721s] -- Found joint_trajectory_controller: 2.50.2 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[0.773s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.781s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.788s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.789s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.789s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.830s] -- Found ur_dashboard_msgs: 2.11.0 (/home/jhkim/ros2_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[0.840s] -- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[0.863s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.865s] -- Found controller_manager: 2.52.2 (/opt/ros/humble/share/controller_manager/cmake)
+[0.879s] -- Found ros2_control_test_assets: 2.52.2 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[0.881s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.885s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.886s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.923s] -- Configuring done
+[0.945s] -- Generating done
+[0.951s] -- Build files have been written to: /home/jhkim/ros2_ws/build/ur_controllers
+[0.959s] Invoked command in '/home/jhkim/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_controllers
+[0.960s] Invoking command in '/home/jhkim/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_controllers -- -j32 -l32
+[0.994s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jhkim/ros2_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[0.994s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jhkim/ros2_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[0.994s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jhkim/ros2_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[0.994s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jhkim/ros2_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[0.994s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jhkim/ros2_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[0.994s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jhkim/ros2_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[0.994s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jhkim/ros2_ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[0.994s] [ 23%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/jhkim/ros2_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[0.994s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.995s] [ 32%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[0.995s] [ 32%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.081s] [ 35%] [34m[1mCreating deprecated header file /home/jhkim/ros2_ws/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[1.090s] [ 38%] [34m[1mCreating deprecated header file /home/jhkim/ros2_ws/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[1.091s] [ 41%] [34m[1mCreating deprecated header file /home/jhkim/ros2_ws/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[1.092s] [ 44%] [34m[1mCreating deprecated header file /home/jhkim/ros2_ws/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[1.092s] [ 44%] Built target scaled_joint_trajectory_controller_parameters
+[1.097s] [ 47%] [34m[1mCreating deprecated header file /home/jhkim/ros2_ws/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[1.101s] [ 47%] Built target ur_configuration_controller_parameters
+[1.101s] [ 50%] [34m[1mCreating deprecated header file /home/jhkim/ros2_ws/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[1.102s] [ 50%] Built target tool_contact_controller_parameters
+[1.103s] [ 50%] Built target gpio_controller_parameters
+[1.108s] [ 52%] [34m[1mCreating deprecated header file /home/jhkim/ros2_ws/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[1.109s] [ 52%] Built target force_mode_controller_parameters
+[1.113s] [ 55%] [34m[1mCreating deprecated header file /home/jhkim/ros2_ws/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[1.113s] [ 55%] Built target speed_scaling_state_broadcaster_parameters
+[1.119s] [ 55%] Built target freedrive_mode_controller_parameters
+[1.124s] [ 55%] Built target passthrough_trajectory_controller_parameters
+[1.136s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[1.136s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[1.138s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[1.138s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[1.138s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[1.138s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[1.138s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[1.138s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[1.670s] [ 82%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[1.693s] [ 82%] Built target gmock_main
+[2.776s] [ 85%] [32m[1mLinking CXX static library libgmock.a[0m
+[2.820s] [ 85%] Built target gmock
+[6.504s] [ 88%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[7.178s] [ 88%] Built target ur_controllers
+[7.191s] [ 91%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[7.192s] [ 94%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[9.892s] [ 97%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[9.898s] [100%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[10.044s] [100%] Built target test_load_force_mode_controller
+[10.046s] [100%] Built target test_load_freedrive_mode_controller
+[10.053s] Invoked command in '/home/jhkim/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_controllers -- -j32 -l32
+[10.054s] Invoking command in '/home/jhkim/ros2_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_controllers
+[10.058s] -- Install configuration: ""
+[10.059s] -- Execute custom install script
+[10.059s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[10.064s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[10.069s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[10.075s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[10.080s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[10.085s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[10.090s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[10.095s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[10.100s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[10.100s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[10.101s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[10.102s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[10.103s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[10.104s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[10.104s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[10.104s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[10.104s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[10.104s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[10.104s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers//controller_plugins.xml
+[10.109s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/lib/libur_controllers.so
+[10.114s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[10.120s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[10.125s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[10.129s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[10.134s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[10.140s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[10.145s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[10.150s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[10.155s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[10.155s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[10.160s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[10.165s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[10.171s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[10.176s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[10.181s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[10.186s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[10.191s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[10.196s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[10.202s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[10.207s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[10.212s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[10.217s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[10.222s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[10.226s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[10.233s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.238s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.243s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[10.248s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[10.253s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[10.258s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_controllers/share/ur_controllers/package.xml
+[10.265s] Invoked command in '/home/jhkim/ros2_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_controllers

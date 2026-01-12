@@ -1,0 +1,90 @@
+[0.009s] Invoking command in '/home/jhkim/ros2_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_calibration
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.072s] -- The CXX compiler identification is GNU 11.4.0
+[0.076s] -- Detecting C compiler ABI info
+[0.116s] -- Detecting C compiler ABI info - done
+[0.119s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.119s] -- Detecting C compile features
+[0.120s] -- Detecting C compile features - done
+[0.121s] -- Detecting CXX compiler ABI info
+[0.168s] -- Detecting CXX compiler ABI info - done
+[0.172s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.172s] -- Detecting CXX compile features
+[0.173s] -- Detecting CXX compile features - done
+[0.173s] [0mur_calibration: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.175s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.257s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.287s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.310s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.336s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.340s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.345s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.387s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.388s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.451s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.469s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.496s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.502s] -- Looking for pthread.h
+[0.546s] -- Looking for pthread.h - found
+[0.546s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.588s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.589s] -- Found Threads: TRUE  
+[0.615s] -- Found ur_robot_driver: 2.11.0 (/home/jhkim/ros2_ws/install/ur_robot_driver/share/ur_robot_driver/cmake)
+[0.738s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.739s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.739s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.806s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[0.822s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.824s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.827s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.828s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.862s] -- Configuring done
+[0.914s] -- Generating done
+[0.919s] -- Build files have been written to: /home/jhkim/ros2_ws/build/ur_calibration
+[0.927s] Invoked command in '/home/jhkim/ros2_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jhkim/ros2_ws/src/Universal_Robots_ROS2_Driver/ur_calibration -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/ur_calibration
+[0.928s] Invoking command in '/home/jhkim/ros2_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_calibration -- -j32 -l32
+[0.959s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.959s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.959s] [ 25%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration_consumer.cpp.o[0m
+[0.959s] [ 33%] [32mBuilding CXX object CMakeFiles/calibration.dir/src/calibration.cpp.o[0m
+[0.960s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.620s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[1.639s] [ 50%] Built target gmock_main
+[5.527s] [ 58%] [32m[1mLinking CXX static library libgmock.a[0m
+[5.574s] [ 66%] [32m[1mLinking CXX static library libcalibration.a[0m
+[5.591s] [ 66%] Built target gmock
+[5.628s] [ 66%] Built target calibration
+[5.642s] [ 75%] [32mBuilding CXX object CMakeFiles/calibration_correction.dir/src/calibration_correction.cpp.o[0m
+[5.643s] [ 83%] [32mBuilding CXX object CMakeFiles/calibration_test.dir/test/calibration_test.cpp.o[0m
+[9.038s] [ 91%] [32m[1mLinking CXX executable calibration_correction[0m
+[9.241s] [ 91%] Built target calibration_correction
+[9.953s] [100%] [32m[1mLinking CXX executable calibration_test[0m
+[10.132s] [100%] Built target calibration_test
+[10.143s] Invoked command in '/home/jhkim/ros2_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jhkim/ros2_ws/build/ur_calibration -- -j32 -l32
+[10.144s] Invoking command in '/home/jhkim/ros2_ws/build/ur_calibration': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_calibration
+[10.147s] -- Install configuration: "RelWithDebInfo"
+[10.148s] -- Execute custom install script
+[10.148s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/lib/ur_calibration/calibration_correction
+[10.153s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/include/ur_calibration/calibration.hpp
+[10.159s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/include/ur_calibration/calibration_consumer.hpp
+[10.164s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/launch/calibration_correction.launch.py
+[10.170s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ament_index/resource_index/package_run_dependencies/ur_calibration
+[10.175s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ament_index/resource_index/parent_prefix_path/ur_calibration
+[10.180s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.sh
+[10.185s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/environment/ament_prefix_path.dsv
+[10.191s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/environment/path.sh
+[10.197s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/environment/path.dsv
+[10.203s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/local_setup.bash
+[10.208s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/local_setup.sh
+[10.213s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/local_setup.zsh
+[10.219s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/local_setup.dsv
+[10.224s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.dsv
+[10.229s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ament_index/resource_index/packages/ur_calibration
+[10.234s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.240s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.245s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig.cmake
+[10.251s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/cmake/ur_calibrationConfig-version.cmake
+[10.256s] -- Symlinking: /home/jhkim/ros2_ws/install/ur_calibration/share/ur_calibration/package.xml
+[10.263s] Invoked command in '/home/jhkim/ros2_ws/build/ur_calibration' returned '0': AMENT_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver:/home/jhkim/ros2_ws/install/ur_controllers:/home/jhkim/ros2_ws/install/ur_dashboard_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/lib:/home/jhkim/ros2_ws/install/ur_controllers/lib:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/jhkim/ros2_ws/install/ur_robot_driver/bin:${PATH} PYTHONPATH=/home/jhkim/ros2_ws/install/ur_robot_driver/local/lib/python3.10/dist-packages:/home/jhkim/ros2_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jhkim/ros2_ws/build/ur_calibration
