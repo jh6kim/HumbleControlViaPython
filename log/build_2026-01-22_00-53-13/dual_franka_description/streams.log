@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/jhkim/ros2_ws/build/dual_franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/dual_franka_description -- -j32 -l32
+[0.040s] Invoked command in '/home/jhkim/ros2_ws/build/dual_franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/dual_franka_description -- -j32 -l32
+[0.048s] Invoking command in '/home/jhkim/ros2_ws/build/dual_franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/dual_franka_description
+[0.054s] -- Install configuration: ""
+[0.055s] -- Execute custom install script
+[0.055s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/launch/visualize_dual_panda.launch.py
+[0.055s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/urdf/dual_panda.urdf.xacro
+[0.055s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/package_run_dependencies/dual_franka_description
+[0.055s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/parent_prefix_path/dual_franka_description
+[0.056s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/ament_prefix_path.sh
+[0.056s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/path.sh
+[0.056s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/path.dsv
+[0.056s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.bash
+[0.056s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.sh
+[0.056s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.zsh
+[0.056s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.dsv
+[0.056s] -- Symlinking: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/package.dsv
+[0.064s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/packages/dual_franka_description
+[0.064s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/cmake/dual_franka_descriptionConfig.cmake
+[0.064s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/cmake/dual_franka_descriptionConfig-version.cmake
+[0.064s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/package.xml
+[0.066s] Invoked command in '/home/jhkim/ros2_ws/build/dual_franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/dual_franka_description

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dual_franka">
+
+  <xacro:include filename="$(find franka_description)/robots/common/franka_arm.xacro"/>
+
+  <link name="world"/>
+  <link name="base_table">
+    <visual><geometry><box size="0.5 1.2 0.1"/></geometry><material name="white"><color rgba="1 1 1 1"/></material></visual>
+  </link>
+  <joint name="world_to_table" type="fixed">
+    <parent link="world"/><child link="base_table"/><origin xyz="0 0 0.05"/>
+  </joint>
+
+  <xacro:property name="config_path" value="$(find franka_description)/robots/fr3" />
+
+  <xacro:franka_arm 
+      robot_type="fr3"
+      arm_prefix="left_"
+      connected_to="left_v_base" 
+      safety_distance="0.0"
+      accelerometer_config="none"
+      no_prefix="false"
+      joint_limits="${xacro.load_yaml(config_path + '/joint_limits.yaml')}"
+      inertials="${xacro.load_yaml(config_path + '/inertials.yaml')}"
+      kinematics="${xacro.load_yaml(config_path + '/kinematics.yaml')}"
+      dynamics="${xacro.load_yaml(config_path + '/dynamics.yaml')}" />
+
+  <joint name="left_to_table" type="fixed">
+    <parent link="base_table"/><child link="left_v_base"/><origin xyz="0 0.3 0.05"/>
+  </joint>
+
+  <xacro:franka_arm 
+      robot_type="fr3"
+      arm_prefix="right_"
+      connected_to="right_v_base" 
+      safety_distance="0.0"
+      accelerometer_config="none"
+      no_prefix="false"
+      joint_limits="${xacro.load_yaml(config_path + '/joint_limits.yaml')}"
+      inertials="${xacro.load_yaml(config_path + '/inertials.yaml')}"
+      kinematics="${xacro.load_yaml(config_path + '/kinematics.yaml')}"
+      dynamics="${xacro.load_yaml(config_path + '/dynamics.yaml')}" />
+
+  <joint name="right_to_table" type="fixed">
+    <parent link="base_table"/><child link="right_v_base"/><origin xyz="0 -0.3 0.05"/>
+  </joint>
+
+</robot>

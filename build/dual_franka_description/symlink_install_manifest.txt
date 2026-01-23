@@ -1,0 +1,17 @@
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/launch/visualize_dual_panda.launch.py
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/urdf/dual_panda.urdf.xacro
+/home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/package_run_dependencies/dual_franka_description
+/home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/parent_prefix_path/dual_franka_description
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/ament_prefix_path.sh
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/ament_prefix_path.dsv
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/path.sh
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/path.dsv
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.bash
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.sh
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.zsh
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.dsv
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/package.dsv
+/home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/packages/dual_franka_description
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/cmake/dual_franka_descriptionConfig.cmake
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/cmake/dual_franka_descriptionConfig-version.cmake
+/home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/package.xml

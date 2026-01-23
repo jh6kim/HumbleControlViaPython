@@ -1,0 +1,223 @@
+[0.008s] Invoking command in '/home/jhkim/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake /home/jhkim/ros2_ws/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/franka_description
+[0.052s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.165s] -- Detecting C compile features
+[0.165s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.238s] -- Detecting CXX compile features - done
+[0.242s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.361s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.407s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.447s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.684s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.703s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.705s] -- Added test 'lint_cmake' to check CMake code style
+[0.706s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.716s] -- Added test 'xmllint' to check XML markup files
+[0.717s] -- Configuring done
+[0.719s] -- Generating done
+[0.720s] -- Build files have been written to: /home/jhkim/ros2_ws/build/franka_description
+[0.724s] Invoked command in '/home/jhkim/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake /home/jhkim/ros2_ws/src/franka_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jhkim/ros2_ws/install/franka_description
+[0.725s] Invoking command in '/home/jhkim/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/franka_description -- -j32 -l32
+[0.746s] Invoked command in '/home/jhkim/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/franka_description -- -j32 -l32
+[0.747s] Invoking command in '/home/jhkim/ros2_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/franka_description
+[0.751s] -- Install configuration: ""
+[0.751s] -- Execute custom install script
+[0.751s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//launch/visualize_franka.launch.py
+[0.757s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//launch/visualize_franka_duo.launch.py
+[0.763s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_arm.ros2_control.xacro
+[0.768s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_arm.srdf.xacro
+[0.773s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_arm.xacro
+[0.779s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/common/franka_robot.xacro
+[0.784s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/common/group_definition.xacro
+[0.790s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/common/utils.xacro
+[0.795s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fer/dynamics.yaml
+[0.800s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fer/fer.srdf.xacro
+[0.806s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fer/fer.urdf.xacro
+[0.811s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fer/inertials.yaml
+[0.817s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fer/joint_limits.yaml
+[0.823s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fer/kinematics.yaml
+[0.829s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fp3/accelerometers.yaml
+[0.835s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fp3/dynamics.yaml
+[0.840s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fp3/fp3.srdf.xacro
+[0.845s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fp3/fp3.urdf.xacro
+[0.850s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fp3/inertials.yaml
+[0.856s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fp3/joint_limits.yaml
+[0.862s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fp3/kinematics.yaml
+[0.868s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3/accelerometers.yaml
+[0.873s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3/dynamics.yaml
+[0.879s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3/fr3.srdf.xacro
+[0.885s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3/fr3.urdf.xacro
+[0.899s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3/inertials.yaml
+[0.904s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3/joint_limits.yaml
+[0.910s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3/kinematics.yaml
+[0.915s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo.urdf.xacro
+[0.921s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_arm.urdf.xacro
+[0.927s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_fixed_structure.urdf.xacro
+[0.934s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/fr3_duo_mount.xacro
+[0.940s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/inertials.yaml
+[0.945s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3_duo/fr3_duo_mount/kinematics.yaml
+[0.950s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2/accelerometers.yaml
+[0.956s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2/dynamics.yaml
+[0.962s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2/fr3v2.srdf.xacro
+[0.967s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2/fr3v2.urdf.xacro
+[0.974s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2/inertials.yaml
+[0.980s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2/joint_limits.yaml
+[0.986s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2/kinematics.yaml
+[0.992s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2_1/accelerometers.yaml
+[0.998s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2_1/dynamics.yaml
+[1.003s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2_1/fr3v2_1.srdf.xacro
+[1.007s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2_1/fr3v2_1.urdf.xacro
+[1.013s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2_1/inertials.yaml
+[1.019s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2_1/joint_limits.yaml
+[1.025s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/fr3v2_1/kinematics.yaml
+[1.031s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/mobile_fr3_duo_v0_2/mobile_fr3_duo_v0_2.urdf.xacro
+[1.037s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/argo_drive.xacro
+[1.042s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/caster_wheel.xacro
+[1.048s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/inertia.xacro
+[1.054s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/lidar.xacro
+[1.060s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/nanoscan3/common.xacro
+[1.066s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/nanoscan3/nanoscan3.urdf.xacro
+[1.072s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/nanoscan3/nanoscan3/gazebo_macro.xacro
+[1.077s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/nanoscan3/nanoscan3/nanoscan3_macro.xacro
+[1.083s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/rocker_arm.xacro
+[1.088s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/tmrv0_2.ros2_control.xacro
+[1.094s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/tmrv0_2.urdf.xacro
+[1.100s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//robots/tmrv0_2/tmrv0_2.xacro
+[1.105s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump.urdf.xacro
+[1.112s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/cobot_pump_arguments.xacro
+[1.117s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/cobot_pump/inertials.yaml
+[1.124s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/ee_with_one_link.xacro
+[1.130s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/franka_hand.xacro
+[1.136s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/common/utils.xacro
+[1.142s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.srdf.xacro
+[1.147s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand.urdf.xacro
+[1.153s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/franka_hand_arguments.xacro
+[1.158s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//end_effectors/franka_hand/inertials.yaml
+[1.165s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/collision/fr3_duo_cover.stl
+[1.171s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/collision/fr3_duo_mount.stl
+[1.177s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/visual/fr3_duo_cover.dae
+[1.182s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/accessories/fr3_duo_mount/visual/fr3_duo_mount.dae
+[1.188s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine/collision/franka_spine.stl
+[1.194s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/accessories/franka_spine/visual/franka_spine.dae
+[1.200s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/nanoscan3/MountingKit_2a.dae
+[1.205s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/nanoscan3/MountingKit_2a_collision.stl
+[1.210s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/nanoscan3/NANS3.dae
+[1.215s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/nanoscan3/NANS3_collision.stl
+[1.221s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/hand.stl
+[1.227s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link0.stl
+[1.233s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link1.stl
+[1.239s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link2.stl
+[1.244s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link3.stl
+[1.250s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link4.stl
+[1.255s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link5.stl
+[1.260s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link6.stl
+[1.265s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/collision/link7.stl
+[1.271s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/finger.dae
+[1.277s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/hand.dae
+[1.283s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link0.dae
+[1.289s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link1.dae
+[1.294s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link2.dae
+[1.299s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link3.dae
+[1.306s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link4.dae
+[1.311s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link5.dae
+[1.317s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link6.dae
+[1.324s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fer/visual/link7.dae
+[1.330s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link0.stl
+[1.337s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link1.stl
+[1.342s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link2.stl
+[1.349s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link3.stl
+[1.354s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link4.stl
+[1.361s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link5.stl
+[1.366s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link6.stl
+[1.371s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/collision/link7.stl
+[1.377s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link0.dae
+[1.383s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link1.dae
+[1.389s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link2.dae
+[1.394s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link3.dae
+[1.400s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link4.dae
+[1.405s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link5.dae
+[1.411s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link6.dae
+[1.418s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fp3/visual/link7.dae
+[1.424s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link0.stl
+[1.430s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link1.stl
+[1.435s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link2.stl
+[1.441s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link3.stl
+[1.446s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link4.stl
+[1.452s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link5.stl
+[1.458s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link6.stl
+[1.465s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/collision/link7.stl
+[1.470s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link0.dae
+[1.476s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link1.dae
+[1.482s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link2.dae
+[1.488s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link3.dae
+[1.494s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link4.dae
+[1.500s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link5.dae
+[1.506s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link6.dae
+[1.511s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3/visual/link7.dae
+[1.517s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link0.stl
+[1.523s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link1.stl
+[1.530s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link2.stl
+[1.536s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link3.stl
+[1.541s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link4.stl
+[1.547s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link5.stl
+[1.553s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link6.stl
+[1.559s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/collision/link7.stl
+[1.565s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link0.dae
+[1.571s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link1.dae
+[1.576s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link2.dae
+[1.582s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link3.dae
+[1.588s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link4.dae
+[1.594s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link5.dae
+[1.599s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link6.dae
+[1.605s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2/visual/link7.dae
+[1.611s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/collision/link0.stl
+[1.616s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/collision/link1.stl
+[1.622s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/collision/link2.stl
+[1.628s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/collision/link3.stl
+[1.634s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/collision/link4.stl
+[1.639s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/collision/link5.stl
+[1.645s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/collision/link6.stl
+[1.650s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/collision/link7.stl
+[1.657s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/visual/link0.dae
+[1.662s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/visual/link1.dae
+[1.668s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/visual/link2.dae
+[1.674s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/visual/link3.dae
+[1.679s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/visual/link4.dae
+[1.686s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/visual/link5.dae
+[1.692s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/visual/link6.dae
+[1.697s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_arms/fr3v2_1/visual/link7.dae
+[1.703s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/collision/cobot_pump.stl
+[1.708s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/cobot_pump/visual/cobot_pump.dae
+[1.714s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/collision/hand.stl
+[1.720s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/finger.dae
+[1.726s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_black/visual/hand.dae
+[1.732s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/collision/hand.stl
+[1.738s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/finger.dae
+[1.744s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/robot_ee/franka_hand_white/visual/hand.dae
+[1.749s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/tmrv0_2/collision/tmrv0_2.stl
+[1.755s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//meshes/tmrv0_2/visual/tmrv0_2.dae
+[1.761s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka.rviz
+[1.767s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description//rviz/visualize_franka_duo.rviz
+[1.773s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/ament_index/resource_index/package_run_dependencies/franka_description
+[1.778s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/ament_index/resource_index/parent_prefix_path/franka_description
+[1.784s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.sh
+[1.790s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/environment/ament_prefix_path.dsv
+[1.796s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/environment/path.sh
+[1.801s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/environment/path.dsv
+[1.807s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/local_setup.bash
+[1.812s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/local_setup.sh
+[1.818s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/local_setup.zsh
+[1.824s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/local_setup.dsv
+[1.829s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/package.dsv
+[1.835s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/ament_index/resource_index/packages/franka_description
+[1.841s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake
+[1.846s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake
+[1.851s] -- Symlinking: /home/jhkim/ros2_ws/install/franka_description/share/franka_description/package.xml
+[1.858s] Invoked command in '/home/jhkim/ros2_ws/build/franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/franka_description

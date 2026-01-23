@@ -1,0 +1,1 @@
+/home/jhkim/ros2_ws/src/dual_franka_description/launch/visualize_dual_panda.launch.py

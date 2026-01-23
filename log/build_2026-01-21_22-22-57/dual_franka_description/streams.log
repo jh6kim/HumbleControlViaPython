@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/jhkim/ros2_ws/build/dual_franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/dual_franka_description -- -j32 -l32
+[0.029s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.124s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.145s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.146s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.150s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.165s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.187s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.188s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.280s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.313s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.364s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.364s] -- Added test 'lint_cmake' to check CMake code style
+[0.365s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.366s] -- Added test 'xmllint' to check XML markup files
+[0.366s] -- Configuring done
+[0.370s] -- Generating done
+[0.372s] -- Build files have been written to: /home/jhkim/ros2_ws/build/dual_franka_description
+[0.393s] Invoked command in '/home/jhkim/ros2_ws/build/dual_franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --build /home/jhkim/ros2_ws/build/dual_franka_description -- -j32 -l32
+[0.401s] Invoking command in '/home/jhkim/ros2_ws/build/dual_franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/dual_franka_description
+[0.407s] -- Install configuration: ""
+[0.407s] -- Execute custom install script
+[0.408s] -- Symlinking: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/launch/visualize_dual_panda.launch.py
+[0.415s] -- Symlinking: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/urdf/dual_panda.urdf.xacro
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/package_run_dependencies/dual_franka_description
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/parent_prefix_path/dual_franka_description
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/ament_prefix_path.sh
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/ament_prefix_path.dsv
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/path.sh
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/environment/path.dsv
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.bash
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.sh
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.zsh
+[0.423s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/local_setup.dsv
+[0.424s] -- Symlinking: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/package.dsv
+[0.430s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/ament_index/resource_index/packages/dual_franka_description
+[0.431s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/cmake/dual_franka_descriptionConfig.cmake
+[0.431s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/cmake/dual_franka_descriptionConfig-version.cmake
+[0.431s] -- Up-to-date symlink: /home/jhkim/ros2_ws/install/dual_franka_description/share/dual_franka_description/package.xml
+[0.433s] Invoked command in '/home/jhkim/ros2_ws/build/dual_franka_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jhkim/ros2_ws/install/my_ur_control:/opt/ros/humble /usr/bin/cmake --install /home/jhkim/ros2_ws/build/dual_franka_description
