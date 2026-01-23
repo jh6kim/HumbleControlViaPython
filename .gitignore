@@ -1,1 +1,27 @@
-build/ install/ log/
+build/ 
+install/ 
+log/
+
+# --- 컴파일 및 실행 파일 ---
+*.o
+*.obj
+*.out
+*.exe
+bin/
+out/
+
+# --- 로그 및 임시 파일 ---
+*.log
+*.swp
+.DS_Store
+
+# --- IDE (VS Code 등) 설정 ---
+.vscode/
+.idea/
+
+# --- CMake 관련 (build 폴더 밖에서 생성될 경우 대비) ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
