@@ -55,7 +55,8 @@ class PinocchioRealtimeNode(Node):
         print(f"Joint Order (Pinocchio): {self.pin_joint_names[:3]} ...")
         print(f"Current Q: {q.round(3)}")
         print(f"\n[Gravity Vector (Nm)]\n{tau_gravity.round(3)}")
-        print(f"\n[Mass Matrix (M) - 7x7 part]\n{M[:7, :7].round(3)}")
+        np.set_printoptions(precision=3, suppress=True, linewidth=150) # 출력 포맷 설정
+        print(f"\n[Mass Matrix (M) - 14x14 part]\n{M[:14, :14].round(3)}")
 
 def main(args=None):
     rclpy.init(args=args)

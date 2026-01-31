@@ -33,3 +33,33 @@ print(M)
 g = pin.rnea(model, data, q, np.zeros(model.nv), np.zeros(model.nv))
 print("\n--- Gravity Torque (g) ---")
 print(g)
+
+# 8. 전방 운동학 및 자코비안 업데이트 (프레임 위치 갱신 필수)
+pin.framesForwardKinematics(model, data, q)
+pin.computeJointJacobians(model, data, q)
+
+# 9. End-effector 프레임 ID 찾기
+# URDF에서 생성된 링크 이름 (left_fr3_link8, right_fr3_link8)을 사용합니다.
+left_ee_link = "left_fr3_link8"
+right_ee_link = "right_fr3_link8"
+
+left_ee_id = model.getFrameId(left_ee_link)
+right_ee_id = model.getFrameId(right_ee_link)
+
+# 10. 자코비안 추출 (6x14 행렬)
+# ReferenceFrame.LOCAL_WORLD_ALIGNED: 베이스 좌표계 기준의 선속도/각속도를 의미합니다.
+J_L = pin.getFrameJacobian(model, data, left_ee_id, pin.ReferenceFrame.LOCAL_WORLD_ALIGNED)
+J_R = pin.getFrameJacobian(model, data, right_ee_id, pin.ReferenceFrame.LOCAL_WORLD_ALIGNED)
+
+print("\n--- Left Arm Jacobian (6x14) ---")
+print(J_L)
+
+print("\n--- Right Arm Jacobian (6x14) ---")
+print(J_R)
+
+# 11. 가상 외력에 따른 조인트 토크 계산 (예시: 임피던스 제어의 핵심)
+# 왼손 끝(EE)에 Z축 방향으로 10N의 힘이 가해졌을 때 필요한 조인트 토크
+force_vector = np.array([0, 0, 10, 0, 0, 0]) # [Fx, Fy, Fz, Mx, My, Mz]
+tau_external = J_L.T @ force_vector
+print("\n--- Joint Torques for 10N force on Left EE (Z-axis) ---")
+print(tau_external)

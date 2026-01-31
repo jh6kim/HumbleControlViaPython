@@ -18,11 +18,19 @@ def generate_launch_description():
             output='screen',
             parameters=[{'robot_description': robot_description_raw}]
         ),
-        Node(
-            package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui',
-            output='screen'
-        ),
+        # Node(
+        #     package='joint_state_publisher_gui',
+        #     executable='joint_state_publisher_gui',
+        #     output='screen'
+        # ),
+        # 시뮬레이터가 켜지기 전까지 기본값(0)을 계속 쏴주는 노드
+    #     Node(
+    #     package='joint_state_publisher',
+    #     executable='joint_state_publisher',
+    #     name='joint_state_publisher',
+    #     # 시뮬레이터와 토픽이 겹치지 않게 하려면 나중에 설정을 바꾸겠지만, 
+    #     # 지금은 시뮬레이터를 켜면 이 노드를 Ctrl+C로 끄는 방식으로 충분합니다.
+    # ),
         Node(
             package='rviz2',
             executable='rviz2',
